@@ -1,0 +1,21 @@
+{
+    "version": "1.0.0",
+    "plays": [],
+    "stdout": [
+        "\u001b[1;35m[WARNING]: While constructing a mapping from\u001b[0m",
+        "\u001b[1;35m/home/student/create_users_complex/create_users.yml, line 2, column 3, found a\u001b[0m",
+        "\u001b[1;35mduplicate dict key (tasks). Using last defined value only.\u001b[0m",
+        "\u001b[0;31mERROR! conflicting action statements: user, loops\u001b[0m",
+        "\u001b[0;31m\u001b[0m",
+        "\u001b[0;31mThe error appears to be in '/home/student/create_users_complex/create_users.yml': line 9, column 7, but may\u001b[0m",
+        "\u001b[0;31mbe elsewhere in the file depending on the exact syntax problem.\u001b[0m",
+        "\u001b[0;31m\u001b[0m",
+        "\u001b[0;31mThe offending line appears to be:\u001b[0m",
+        "\u001b[0;31m\u001b[0m",
+        "\u001b[0;31m  tasks:\u001b[0m",
+        "\u001b[0;31m    - name: Add user\u001b[0m",
+        "\u001b[0;31m      ^ here\u001b[0m"
+    ],
+    "status": "failed",
+    "status_color": 9
+}

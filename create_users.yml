@@ -5,7 +5,6 @@
   vars_files:
     - user_list.yml
   tasks:
-  tasks:
     - name: Add user
       vars:
         password: "{{ lookup('password', './password-' + '{{ item.name }}' + ' length=6') }}"
