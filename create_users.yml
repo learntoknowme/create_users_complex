@@ -14,4 +14,4 @@
         uid: "{{ item.uid }}"
         comment: "{{ item.first|capitalize }} {{ item.middle|capitalize }} {{item.last|capitalize }}"
         update_password: on_create
-      loops: "{{ users }}"
+      loop: "{{ users }}"
